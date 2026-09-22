@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F0F8FF"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notatki"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#0000CD"
+        android:gravity="start"
+        android:layout_marginBottom="8dp"/>
+
+    <ListView
+        android:id="@+id/listViewNotatki"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#FFFFFF"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dodanie notatki"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#0000CD"
+        android:gravity="start"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tytuł notatki: "
+        android:textSize="14sp"
+        android:textColor="#000000"
+        android:gravity="start"
+        android:layout_marginBottom="4dp"/>
+
+    <EditText
+        android:id="@+id/editTytul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/edit_text"
+        android:textSize="14sp"
+        android:inputType="text"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Treść notatki: "
+        android:textSize="14sp"
+        android:textColor="#000000"
+        android:gravity="start"
+        android:layout_marginBottom="4dp"/>
+
+    <EditText
+        android:id="@+id/editTresc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/edit_text"
+        android:textSize="14sp"
+        android:inputType="textMultiLine"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/buttonDodaj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DODAJ"
+        android:textColor="#0000CD"
+        android:textStyle="bold"/>
+
+</LinearLayout>
